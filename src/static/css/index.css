@@ -1,0 +1,37 @@
+.menu {
+  width: 320px;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 10px 0px #766060;
+  font-weight: bold;
+  overflow: auto;
+  z-index: 2;
+  padding: 25px 0
+}
+.menu ul {
+  border-left: 1px solid silver;
+  padding-left: 20px
+}
+.menu ul li{
+  list-style: none;
+  padding: 5px 0
+}
+.open {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 3;
+  cursor: pointer
+}
+.table {
+  margin-top: 50px
+}
+
+form {
+  width: 320px
+}
